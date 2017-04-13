@@ -25,8 +25,7 @@ class Savu extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$models = array('utilisateur_model', 'ticket_model', 'technicien_model', 'client_model', 'enregistrementconversation_model', 'mail_model', 'produit_model', 'satisfaction_model');
-		$this->load->model($models);
+
 	}
 	 
 	 // Fonction qui charge la vue correspondant à la page d'accueil
