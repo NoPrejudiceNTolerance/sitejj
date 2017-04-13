@@ -390,7 +390,7 @@ class Savu extends CI_Controller {
 			redirect("savu/gestion_techniciens", "refresh");
 		}else{
 			echo "<font color=black size=5><center>Le technicien gère encore au moins un ticket, vous ne pouvez pas le supprimer.<br />Vous allez être redirigé vers la liste des techniciens.</center></font>";
-			$this->output->set_header('refresh:5;url=http://savu.axelbrouland.fr/index.php/savu/gestion_techniciens');
+			$this->output->set_header('refresh:5;url='+$config['base_url']);
 		}
 	}
 	
