@@ -1,0 +1,10 @@
+.technicien{
+	background-clip: border-box;
+	padding: 50px;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+nav div ul .waves-effect i {
+    display: inline;
+}
